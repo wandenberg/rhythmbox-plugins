@@ -1,0 +1,31 @@
+0.0.7
+- Changing the key combination to Ctrl+period because Ctrl+'/' is taken by
+  rhythmbox
+
+0.0.6
+- Migrating to dynamic bindings for GObject, Rhythmbox and other libraries.
+- Changing the module name
+- No need for trash-cli or notify-bin packages
+- Pylint fixes
+- Changing the default key combination from Mod4+Up to Ctrl+/
+    - because using Mod4 (WindowsKey) in some configurations conflicts with the
+      existing key bindings.
+- Changing how we obtain the currently playing song's file path
+    - Using standard modules to convert the URI to system path.
+
+0.0.5
+- recoversh not needed anymore on gnome 2.32 because trash bin can recover now
+
+0.0.4
+- delimiting $ now
+
+0.0.3
+- fixed deletion of files with an ['] in their name
+
+0.0.2
+- fixed url unencoding of file names
+
+0.0.1 
+- initial feature complete version
+
+
